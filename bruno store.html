@@ -1,0 +1,99 @@
+<html>
+ <head>
+<link rel="stylesheet" href="style.css" />
+<script src="script.js"></script>
+<title>Bruno's Store</title>
+</head>
+
+<!--ICT 12 - Diligence, Daryl Anne Florida Lapitan -->
+
+<body>
+<div class="box">
+<table oninput="calculation()">
+<tr>
+<th>Item</th>
+<th>Price</th>
+<th>Quantity</th>
+<th>Total Price</th>
+</tr>
+
+<tr>
+<td><input type="text" placeholder="item 1"></td>
+<td>150</td>
+<td>
+<input type="text" id="ItemOneQuantity" placeholder="quantity 1" />
+</td>
+<td>
+<b id="itemOneTotal">0 </b>
+</td>
+</tr>
+
+<tr>
+<td><input type="text" placeholder="item 2"></td>
+<td>95</td>
+<td>
+<input type="text" id="ItemTwoQuantity" placeholder="quantity 2" />
+</td>
+
+<td>
+<b id="itemTwoTotal">0</b>
+</td>
+</tr>
+
+<tr>
+<td><input type="text" placeholder="item 3"></td>
+<td id="brocolliPrice">120</td>
+<td>
+<input type="text" id="ItemThreeQuantity" placeholder="quantity 3" />
+</td>
+
+<td>
+<b id="itemThreeTotal">0 </b>
+</td>
+</tr>
+
+<tr>
+<th colspan="3">Total Amount:</th>
+<td>
+<b id="amount">0 </b>
+</td>
+</tr>
+
+<tr>
+<th colspan="3">Discount:</th>
+<td>
+<input type="text" id="discount" placeholder="%" />
+</td>
+</tr>
+
+<tr>
+<th colspan="3">Less:</th>
+<td>
+<b id="less">0 </b>
+</td>
+</tr>
+
+<tr>
+<th colspan="3">Amount Due:</th>
+<td>
+<b id="due">0 </b>
+</td>
+</tr>
+
+<tr>
+<th colspan="3">Cash:</th>
+<td>
+<input type="text" id="cash" placeholder="Enter Cash" />
+</td>
+</tr>
+
+<tr>
+<th colspan="3">Change:</th>
+<td>
+<b id="change">0</b>
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
